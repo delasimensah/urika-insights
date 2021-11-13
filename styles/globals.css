@@ -35,6 +35,10 @@ a {
   width: 0;
 }
 
+/* .css-1m8lq0m-MuiInputBase-root-MuiOutlinedInput-root:hover {
+  outline: 2px solid transparent !important;
+} */
+
 @layer utilities {
   .heading {
     @apply text-3xl font-semibold;

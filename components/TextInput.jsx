@@ -7,12 +7,13 @@ const TextInput = ({ label, type, value, handleChange }) => {
   return (
     <TextField
       label={label}
-      variant="outlined"
+      variant="standard"
       type={type}
       value={value}
       onChange={handleChange}
       fullWidth
-      color="primary"
+      color="secondary"
+      className="hover:outline-none"
     />
   );
 };

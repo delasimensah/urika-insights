@@ -8,8 +8,8 @@ const Home = () => {
       <Carousel />
       <div className="relative md:rounded-md md:shadow-md p-10 md:w-[90vw] md:-top-20 md:mx-auto bg-white space-y-10 z-50">
         <h1 className="heading">
-          Welcome to <span className="text-blue-500">Urika</span>{" "}
-          <span className="text-red-500">Insights</span>
+          Welcome to <span className="text-secondary">Urika</span>{" "}
+          <span className="text-primary">Insights</span>
         </h1>
 
         <div className="space-y-5 text-[17px] text-gray-600">

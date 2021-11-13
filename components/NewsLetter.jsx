@@ -12,9 +12,9 @@ const NewsLetter = () => {
 
   return (
     <div className="flex flex-col items-center py-10 space-y-3 bg-gray-50">
-      <h1 className="heading">Subscribe to our news letter</h1>
+      <h1 className="heading">Sign Up For Our Newsletter</h1>
 
-      <div className="py-3 space-y-5 md:w-3/5">
+      <div className="py-3 space-y-5 md:w-2/5">
         <TextInput
           label="Name"
           type="text"
@@ -32,7 +32,7 @@ const NewsLetter = () => {
 
       <Button
         variant="container"
-        className="text-lg text-white capitalize bg-red-500 shadow-none"
+        className="w-40 text-white bg-red-500 rounded-none shadow-none"
       >
         Sign Up
       </Button>
