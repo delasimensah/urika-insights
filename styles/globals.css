@@ -17,3 +17,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#menu {
+  scrollbar-width: none;
+}
+
+#menu::-webkit-scrollbar {
+  width: 0;
+}
