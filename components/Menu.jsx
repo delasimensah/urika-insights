@@ -72,7 +72,7 @@ const Menu = () => {
           <SubMenu open={services} links={servicesLinks} />
 
           <MenuItem onClick={toggleTools} title="Research Tools">
-            {services ? <IoChevronUp /> : <IoChevronDown />}
+            {tools ? <IoChevronUp /> : <IoChevronDown />}
           </MenuItem>
           <SubMenu open={tools} links={toolsLinks} />
 

@@ -20,7 +20,7 @@ export const aboutLinks = [
 export const servicesLinks = [
   {
     link: "/services",
-    title: "360 customer experience optimizer (360 CEO)",
+    title: "360 customer experience optimizer",
   },
   {
     link: "/services",

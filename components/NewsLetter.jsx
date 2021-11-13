@@ -1,9 +1,41 @@
-import React from "react";
+import { useState } from "react";
+
+//mui
+import { Button } from "@mui/material";
+
+//components
+import TextInput from "./TextInput";
 
 const NewsLetter = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+
   return (
-    <div>
-      <h1>Subscribe to our news letter</h1>
+    <div className="flex flex-col items-center py-10 space-y-3 bg-gray-50">
+      <h1 className="heading">Subscribe to our news letter</h1>
+
+      <div className="py-3 space-y-5 md:w-3/5">
+        <TextInput
+          label="Name"
+          type="text"
+          value={name}
+          handleChange={(e) => setName(e.target.value)}
+        />
+
+        <TextInput
+          label="Email"
+          type="email"
+          value={email}
+          handleChange={(e) => setEmail(e.target.value)}
+        />
+      </div>
+
+      <Button
+        variant="container"
+        className="text-lg text-white capitalize bg-red-500 shadow-none"
+      >
+        Sign Up
+      </Button>
     </div>
   );
 };

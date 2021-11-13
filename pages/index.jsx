@@ -1,14 +1,18 @@
 //components
 import Layout from "../components/Layout";
+import Carousel from "../components/Carousel";
 
 const Home = () => {
   return (
     <Layout>
-      <div className="bg-home-bg bg-center md:bg-cover h-[500px]"></div>
-      <div className="relative md:rounded-md md:shadow-md p-10 md:w-[90vw] md:-top-20 md:mx-auto bg-white space-y-10">
-        <h1 className="text-3xl font-semibold">Welcome to Urika Insights</h1>
+      <Carousel />
+      <div className="relative md:rounded-md md:shadow-md p-10 md:w-[90vw] md:-top-20 md:mx-auto bg-white space-y-10 z-50">
+        <h1 className="heading">
+          Welcome to <span className="text-blue-500">Urika</span>{" "}
+          <span className="text-red-500">Insights</span>
+        </h1>
 
-        <div className="space-y-5 texr-[17px] text-gray-600">
+        <div className="space-y-5 text-[17px] text-gray-600">
           <p>
             URIKA Research delivers innovative and dependable research that gets
             to the heart of any business or social issue. Whether your goal is

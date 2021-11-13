@@ -7,7 +7,7 @@ import { List, Collapse } from "@mui/material";
 const AboutSubMenu = ({ open, links }) => {
   return (
     <Collapse in={open} timeout="auto" unmountOnExit>
-      <List component="ul" disablePadding className="pl-4">
+      <List component="ul" disablePadding className="pl-6">
         {links.map(({ link, title }, idx) => {
           return (
             <li className="py-4 cursor-pointer group">
