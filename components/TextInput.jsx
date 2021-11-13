@@ -7,7 +7,7 @@ const TextInput = ({ label, type, value, handleChange }) => {
   return (
     <TextField
       label={label}
-      variant="standard"
+      variant="outlined"
       type={type}
       value={value}
       onChange={handleChange}

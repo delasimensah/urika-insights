@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Fade from "react-reveal/Fade";
 
 //mui
 import { Button } from "@mui/material";
@@ -11,32 +12,36 @@ const NewsLetter = () => {
   const [email, setEmail] = useState("");
 
   return (
-    <div className="flex flex-col items-center px-10 py-10 space-y-3 md:px-0 bg-gray-50">
-      <h1 className="heading">Sign Up For Our Newsletter</h1>
+    <Fade left distance="40px" duration={1000}>
+      <div className="flex flex-col items-center px-10 py-20 space-y-3 md:px-0 bg-gray-50">
+        <h1 className="heading">Sign Up For Our Newsletter</h1>
 
-      <div className="py-3 space-y-5 md:w-2/5">
-        <TextInput
-          label="Name"
-          type="text"
-          value={name}
-          handleChange={(e) => setName(e.target.value)}
-        />
+        <div className="py-3 space-y-5 md:3/5 lg:w-2/5">
+          <TextInput
+            label="Name"
+            type="text"
+            value={name}
+            handleChange={(e) => setName(e.target.value)}
+          />
 
-        <TextInput
-          label="Email"
-          type="email"
-          value={email}
-          handleChange={(e) => setEmail(e.target.value)}
-        />
+          <TextInput
+            label="Email"
+            type="email"
+            value={email}
+            handleChange={(e) => setEmail(e.target.value)}
+          />
+        </div>
+
+        <Button
+          variant="container"
+          size="large"
+          className="w-40 text-white bg-red-500 shadow-none"
+          disabled={name === "" || email === ""}
+        >
+          Sign Up
+        </Button>
       </div>
-
-      <Button
-        variant="container"
-        className="w-40 text-white bg-red-500 rounded-none shadow-none"
-      >
-        Sign Up
-      </Button>
-    </div>
+    </Fade>
   );
 };
 

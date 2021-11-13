@@ -74,3 +74,30 @@ export const toolsLinks = [
     title: "research techniques",
   },
 ];
+
+export const footerLinks = [
+  {
+    link: "/",
+    title: "home",
+  },
+  {
+    link: "/site-map",
+    title: "site map",
+  },
+  {
+    link: "/careers",
+    title: "careers",
+  },
+  {
+    link: "/contact-us",
+    title: "contact us",
+  },
+  {
+    link: "/terms",
+    title: "terms of use",
+  },
+  {
+    link: "/privacy",
+    title: "privacy",
+  },
+];
