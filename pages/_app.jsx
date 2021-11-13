@@ -7,7 +7,9 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <title>Urika Insights</title>
+        <title>
+          URIKA Research: Leading Market And Social Research Company In Ghana
+        </title>
         <meta name="description" content="Website for Urika Insights" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,8 +22,9 @@ const MyApp = ({ Component, pageProps }) => {
           href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
+
         <link
-          href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
           rel="stylesheet"
         />
       </Head>

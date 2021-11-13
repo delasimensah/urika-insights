@@ -6,13 +6,13 @@ const Home = () => {
   return (
     <Layout>
       <Carousel />
-      <div className="relative md:rounded-md md:shadow-md p-10 md:w-[90vw] md:-top-20 md:mx-auto bg-white space-y-10 z-50">
+      <div className="relative md:rounded-md md:shadow-md p-6 md:p-10 md:w-[90vw] md:-top-20 md:mx-auto bg-white space-y-10 z-50">
         <h1 className="heading">
           Welcome to <span className="text-secondary">Urika</span>{" "}
-          <span className="text-primary">Insights</span>
+          <span className="text-primary">Research</span>
         </h1>
 
-        <div className="space-y-5 text-[17px] text-gray-600">
+        <div className="space-y-5 text-sm text-[17px] text-gray-600">
           <p>
             URIKA Research delivers innovative and dependable research that gets
             to the heart of any business or social issue. Whether your goal is
