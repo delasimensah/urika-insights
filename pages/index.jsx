@@ -11,13 +11,13 @@ const Home = () => {
       <Carousel />
 
       <Slide up distance="30px" duration={2000}>
-        <div className="relative md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-20 md:mx-auto bg-white space-y-10 z-50">
+        <div className="relative md:border md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-20 md:mx-auto bg-white space-y-10 z-50">
           <h1 className="heading">
             Welcome to <span className="text-secondary">URIKA</span>{" "}
             <span className="text-primary">Research</span>
           </h1>
 
-          <div className="space-y-5 text-sm text-gray-600 md:text-base">
+          <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
               URIKA Research delivers innovative and dependable research that
               gets to the heart of any business or social issue. Whether your
@@ -49,7 +49,7 @@ const Home = () => {
         </div>
       </Slide>
 
-      <div className="px-6 pt-10 pb-20 space-y-10 md:px-16 lg:px-28">
+      <div className="px-6 pt-10 pb-20 space-y-10 md:px-16 lg:px-40">
         <h1 className="heading ">Who we work with</h1>
 
         <Clients />

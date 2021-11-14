@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="flex flex-col items-center px-6 py-20 space-y-10 md:px-10">
       <Logo />
 
-      <ul className="grid grid-cols-3 gap-5 md:space-x-5 md:flex">
+      <ul className="grid grid-cols-2 gap-5 md:space-x-5 md:flex">
         {footerLinks.map(({ link, title }, idx) => {
           return (
             <li key={idx}>

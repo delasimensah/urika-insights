@@ -4,16 +4,8 @@ export const aboutLinks = [
     title: "company overview",
   },
   {
-    link: "/about",
-    title: "our vision, mission and core values",
-  },
-  {
-    link: "/about",
+    link: "/about/team",
     title: "our team",
-  },
-  {
-    link: "/about",
-    title: "careers",
   },
 ];
 
@@ -79,14 +71,6 @@ export const footerLinks = [
   {
     link: "/",
     title: "home",
-  },
-  {
-    link: "/site-map",
-    title: "site map",
-  },
-  {
-    link: "/careers",
-    title: "careers",
   },
   {
     link: "/contact-us",

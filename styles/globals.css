@@ -41,6 +41,6 @@ a {
 
 @layer utilities {
   .heading {
-    @apply text-xl font-semibold md:text-2xl;
+    @apply text-[22px] font-medium md:text-[28px] leading-tight;
   }
 }
