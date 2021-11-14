@@ -82,8 +82,13 @@ const Menu = () => {
           />
 
           <MenuItem
-            onClick={() => router.push("/quote")}
-            title="requst for proposal"
+            onClick={() => router.push("/proposal")}
+            title="request for proposal"
+          />
+
+          <MenuItem
+            onClick={() => router.push("/contact-us")}
+            title="contact us"
           />
         </List>
       </Drawer>

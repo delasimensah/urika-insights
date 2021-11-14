@@ -35,8 +35,7 @@ const ArticlesCaseStudies = () => {
               Peruse this section of our site which contains an array of
               articles, white papers and case studies that is compiled to
               provide organisations with current knowledge and examples of best
-              business practices around the world. Click on the links below to
-              view our:
+              business practices around the world.
             </p>
           </div>
         </div>
@@ -52,6 +51,8 @@ const ArticlesCaseStudies = () => {
               sources by the URIKA Research team. The articles are in pdf
               format.
             </p>
+
+            <p className="text-sm font-semibold">No articles available</p>
           </div>
         </div>
       </Fade>
@@ -66,6 +67,8 @@ const ArticlesCaseStudies = () => {
               educated opinion on a topic. Below is a list of white papers. The
               white papers are in pdf format.
             </p>
+
+            <p className="text-sm font-semibold">No white papers available</p>
           </div>
         </div>
       </Fade>
@@ -80,6 +83,8 @@ const ArticlesCaseStudies = () => {
               thought-provoking perspectives on critical business issues. The
               case studies are in pdf format.
             </p>
+
+            <p className="text-sm font-semibold">No case studies available</p>
           </div>
         </div>
       </Fade>
