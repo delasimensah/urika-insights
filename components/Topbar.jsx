@@ -9,7 +9,7 @@ import Logo from "./Logo";
 
 const Topbar = () => {
   return (
-    <nav className="top-0 z-50 flex justify-between w-full px-5 py-2 md:px-10 md:py-4 ">
+    <nav className="top-0 z-50 flex items-center justify-between w-full px-5 py-2 md:px-10 md:py-4 ">
       <Menu />
 
       <Logo />

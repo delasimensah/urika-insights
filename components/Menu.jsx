@@ -77,12 +77,12 @@ const Menu = () => {
           <SubMenu open={tools} links={toolsLinks} />
 
           <MenuItem
-            onClick={() => router.push("/")}
+            onClick={() => router.push("/articles-case-studies")}
             title="research articles and case studies"
           />
 
           <MenuItem
-            onClick={() => router.push("/")}
+            onClick={() => router.push("/quote")}
             title="requst for proposal"
           />
         </List>

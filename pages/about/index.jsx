@@ -146,7 +146,7 @@ const CompanyOverview = () => {
                 things to yield outstanding results. At URIKA Research, we
                 strive to create an environment where our people can challenge
                 themselves and bring out creative solutions to resolve our
-                clientsâ€™ challenges.
+                clients' challenges.
               </p>
             </li>
 
