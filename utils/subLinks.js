@@ -15,7 +15,7 @@ export const servicesLinks = [
     title: "360 customer experience optimizer",
   },
   {
-    link: "/services",
+    link: "/services/mystery-shopping",
     title: "mystery shopping",
   },
   {
@@ -58,11 +58,11 @@ export const servicesLinks = [
 
 export const toolsLinks = [
   {
-    link: "/tools",
+    link: "/tools/analytics",
     title: "analytics",
   },
   {
-    link: "/tools",
+    link: "/tools/techniques",
     title: "research techniques",
   },
 ];
@@ -77,11 +77,11 @@ export const footerLinks = [
     title: "contact us",
   },
   {
-    link: "/terms",
+    link: "/terms-of-use",
     title: "terms of use",
   },
   {
-    link: "/privacy",
+    link: "/privacy-policy",
     title: "privacy",
   },
 ];

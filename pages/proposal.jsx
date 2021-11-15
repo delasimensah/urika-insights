@@ -107,7 +107,6 @@ const Proposal = () => {
               handleChange={(e) => setComments(e.target.value)}
               multiline={true}
               maxRows={6}
-              className="h-[100px]"
             />
           </form>
 
