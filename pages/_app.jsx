@@ -10,8 +10,8 @@ const MyApp = ({ Component, pageProps }) => {
         <title>
           URIKA Research: Leading Market And Social Research Company In Ghana
         </title>
-        <meta name="description" content="Website for Urika Insights" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <meta name="description" content="Website for Urika Research" />
+        <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
