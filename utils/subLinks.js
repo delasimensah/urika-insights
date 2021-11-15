@@ -85,3 +85,17 @@ export const footerLinks = [
     title: "privacy",
   },
 ];
+
+export const services = [
+  "Customer Satisfaction Research",
+  "Employee Satisfaction Research",
+  "Brand Research",
+  "New Product Development Research",
+  "Market Segmentation Research",
+  "Mystery Shopping",
+  "Opinion and Social Research",
+  "Field and Data Collection Services",
+  "Corporate Traing Programmes",
+  "Ad Hoc Research",
+  "Other (please specify in comments)",
+];

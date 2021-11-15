@@ -21,7 +21,7 @@ const CompanyOverview = () => {
               <a>Home</a>
             </Link>
 
-            <p color="text.primary">About URIKA Research</p>
+            <p>About URIKA Research</p>
           </Breadcrumbs>
 
           <h1 className="leading-normal heading">

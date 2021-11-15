@@ -35,7 +35,7 @@ const NewsLetter = () => {
         <Button
           variant="container"
           size="large"
-          className="w-40 text-white bg-red-500 shadow-none"
+          className="w-40 text-white shadow-none bg-primary"
           disabled={name === "" || email === ""}
         >
           Sign Up

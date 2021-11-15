@@ -3,7 +3,15 @@ import React from "react";
 //mui
 import { TextField } from "@mui/material";
 
-const TextInput = ({ label, type, value, handleChange }) => {
+const TextInput = ({
+  label,
+  type,
+  value,
+  handleChange,
+  multiline,
+  maxRows,
+  required,
+}) => {
   return (
     <TextField
       label={label}
@@ -13,7 +21,9 @@ const TextInput = ({ label, type, value, handleChange }) => {
       onChange={handleChange}
       fullWidth
       color="secondary"
-      className="hover:outline-none"
+      multiline={multiline}
+      maxRows={maxRows}
+      required={required}
     />
   );
 };
