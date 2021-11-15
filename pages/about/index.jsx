@@ -12,10 +12,10 @@ import Layout from "../../components/Layout";
 const CompanyOverview = () => {
   return (
     <Layout>
-      <div className="bg-right bg-about-bg md:bg-cover h-[150px] md:h-[350px]" />
+      <div className="bg-about-bg mt-10 bg-cover h-[150px] md:h-[350px]" />
 
       <Slide up distance="30px" duration={2000}>
-        <div className="relative md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-40 md:mx-auto bg-white space-y-10 z-50 md:border">
+        <div className="relative md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-40 md:mx-auto bg-white space-y-10 z-40 md:border">
           <Breadcrumbs>
             <Link href="/">
               <a>Home</a>
@@ -41,7 +41,7 @@ const CompanyOverview = () => {
       </Slide>
 
       <Fade left duration={1500} distance="60px">
-        <div className="px-6 pb-20 -mt-10 space-y-4 md:px-16 lg:px-40">
+        <div className="px-6 pb-20 space-y-4 md:px-16 lg:px-40">
           <h1 className="heading ">Our History</h1>
 
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">

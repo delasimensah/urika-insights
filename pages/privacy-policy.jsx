@@ -10,7 +10,7 @@ import Layout from "../components/Layout";
 const PrivacyPolicy = () => {
   return (
     <Layout>
-      <div className="h-full px-5 mx-auto space-y-10 py-14 md:px-0 md:w-4/5 lg:w-3/5">
+      <div className="h-full px-5 mx-auto mt-10 space-y-10 py-14 md:px-0 md:w-4/5 lg:w-3/5">
         <Breadcrumbs>
           <Link href="/">
             <a>Home</a>

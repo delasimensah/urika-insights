@@ -12,10 +12,10 @@ import Layout from "../../components/Layout";
 const Analytics = () => {
   return (
     <Layout>
-      <div className="bg-right bg-research-bg md:bg-cover h-[150px] md:h-[350px]" />
+      <div className="mt-10 bg-research-bg bg-cover h-[150px] md:h-[350px]" />
 
       <Slide up distance="30px" duration={2000}>
-        <div className="relative md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-40 md:mx-auto bg-white space-y-10 z-50 md:border">
+        <div className="relative md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-40 md:mx-auto bg-white space-y-10 z-40 md:border">
           <Breadcrumbs>
             <Link href="/">
               <a>Home</a>
@@ -30,13 +30,16 @@ const Analytics = () => {
             At URIKA Research, we understand that the quality of analysis
             determines the value of information. We employ a refined suite of
             statistical tools that draw out accurate, insightful and actionable
-            findings from the research data. While some of these approaches are
-            not always necessary to address client objectives, they can often
-            make the difference between researches that tells us what we already
-            know versus research that shows us what we never expected.
+            findings from the research data.
           </h1>
 
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
+            <p>
+              While some of these approaches are not always necessary to address
+              client objectives, they can often make the difference between
+              researches that tells us what we already know versus research that
+              shows us what we never expected.
+            </p>
             <p>
               Our strength is our ability to match the client problem or issue
               to the correct analytical approach, and then design a research
@@ -49,22 +52,20 @@ const Analytics = () => {
       </Slide>
 
       <Fade left duration={1500} distance="60px">
-        <div className="px-6 pb-20 -mt-10 space-y-4 md:px-16 lg:px-40">
+        <div className="px-6 pb-20 space-y-4 md:px-16 lg:px-40">
           <h1 className="heading ">Cluster Analysis</h1>
 
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
               Questions that the analysis can address:
-              <ol className="pl-5 mt-3 space-y-2">
+              <ol className="pl-5 mt-3 space-y-2 list-decimal">
                 <li>
-                  1. How can we better understand and meet the needs of a
-                  diverse customer base?
+                  How can we better understand and meet the needs of a diverse
+                  customer base?
                 </li>
+                <li>Do different types of customers want different things?</li>
                 <li>
-                  2. Do different types of customers want different things?
-                </li>
-                <li>
-                  3. How do we communicate effectively with diverse customer
+                  How do we communicate effectively with diverse customer
                   groups?
                 </li>
               </ol>
@@ -102,14 +103,14 @@ const Analytics = () => {
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
               Questions that the analysis can address:
-              <ol className="pl-5 mt-3 space-y-2">
+              <ol className="pl-5 mt-3 space-y-2 list-decimal">
                 <li>
-                  1. What is the optimal mix of product features for maximizing
-                  our market share?
+                  What is the optimal mix of product features for maximizing our
+                  market share?
                 </li>
-                <li>2. What product features drive the purchase decision?</li>
+                <li>What product features drive the purchase decision?</li>
                 <li>
-                  3. What product features should be emphasized in our
+                  What product features should be emphasized in our
                   communications campaign?
                 </li>
               </ol>
@@ -162,14 +163,14 @@ const Analytics = () => {
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
               Questions that the analysis can address:
-              <ol className="pl-5 mt-3 space-y-2">
+              <ol className="pl-5 mt-3 space-y-2 list-decimal">
                 <li>
-                  1. How are we perceived relative to our competitors in the
+                  How are we perceived relative to our competitors in the
                   marketplace?
                 </li>
-                <li>2. What are our brand image strengths and weaknesses?</li>
+                <li>What are our brand image strengths and weaknesses?</li>
                 <li>
-                  3. Does our brand image reflect key elements of our brand
+                  Does our brand image reflect key elements of our brand
                   communications strategy?
                 </li>
               </ol>
@@ -209,14 +210,14 @@ const Analytics = () => {
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
               Questions that the analysis can address:
-              <ol className="pl-5 mt-3 space-y-2">
+              <ol className="pl-5 mt-3 space-y-2 list-decimal">
                 <li>
-                  1. Which customers are most likely to purchase a product or
+                  Which customers are most likely to purchase a product or
                   subscribe to a service?
                 </li>
                 <li>
-                  2. What characteristics are most important in driving
-                  preferences or predicting outcomes?
+                  What characteristics are most important in driving preferences
+                  or predicting outcomes?
                 </li>
               </ol>
             </p>
@@ -264,17 +265,17 @@ const Analytics = () => {
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
               Questions that the analysis can address:
-              <ol className="pl-5 mt-3 space-y-2">
+              <ol className="pl-5 mt-3 space-y-2 list-decimal">
                 <li>
-                  1. Which products or services are likely to bundle well
-                  together as a package?
+                  Which products or services are likely to bundle well together
+                  as a package?
                 </li>
                 <li>
-                  2. What are the core dimensions along which customers evaluate
+                  What are the core dimensions along which customers evaluate
                   our products, our services and our company?
                 </li>
                 <li>
-                  3. Do our customers differentiate between our products and
+                  Do our customers differentiate between our products and
                   competitor products in the ways that we intend?
                 </li>
               </ol>
@@ -320,18 +321,18 @@ const Analytics = () => {
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
               Questions that the analysis can address:
-              <ol className="pl-5 mt-3 space-y-2">
+              <ol className="pl-5 mt-3 space-y-2 list-decimal">
                 <li>
-                  1. Which features of our products and services drive customer
+                  Which features of our products and services drive customer
                   satisfaction or purchase intentions most strongly?
                 </li>
                 <li>
-                  2. How should we prioritize the rollout of product and service
+                  How should we prioritize the rollout of product and service
                   enhancements?
                 </li>
                 <li>
-                  3. Are there important aspects of customer experience we are
-                  not measuring?
+                  Are there important aspects of customer experience we are not
+                  measuring?
                 </li>
               </ol>
             </p>
@@ -371,18 +372,18 @@ const Analytics = () => {
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
               Questions that the analysis can address:
-              <ol className="pl-5 mt-3 space-y-2">
+              <ol className="pl-5 mt-3 space-y-2 list-decimal">
                 <li>
-                  1. What is the process by which our communications strategy
+                  What is the process by which our communications strategy
                   influences customers to act?
                 </li>
                 <li>
-                  2. What variables need to be taken into account to understand
-                  why some of our customers purchased one of our new brands and
+                  What variables need to be taken into account to understand why
+                  some of our customers purchased one of our new brands and
                   others did not?
                 </li>
                 <li>
-                  3. Why did this programme produce good outcomes for some
+                  Why did this programme produce good outcomes for some
                   participants but not for others?
                 </li>
               </ol>

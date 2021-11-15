@@ -13,10 +13,10 @@ import TeamCard from "../../components/TeamCard";
 const Team = () => {
   return (
     <Layout>
-      <div className="bg-right bg-team-bg md:bg-cover h-[150px] md:h-[350px]" />
+      <div className="bg-team-bg mt-10 bg-cover h-[150px] md:h-[350px]" />
 
       <Slide up distance="30px" duration={2000}>
-        <div className="relative md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-40 md:mx-auto bg-white space-y-10 z-50 md:border">
+        <div className="relative md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-40 md:mx-auto bg-white space-y-10 z-40 md:border">
           <Breadcrumbs>
             <Link href="/">
               <a>Home</a>
@@ -48,7 +48,7 @@ const Team = () => {
       </Slide>
 
       <Fade left duration={1500} distance="60px">
-        <div className="px-6 pt-0 pb-20 -mt-10 space-y-4 md:px-16 lg:px-40">
+        <div className="px-6 pt-0 pb-20 space-y-4 md:px-16 lg:px-40">
           <h1 className="heading ">Our Team</h1>
 
           <Fade left delay={1500} duration={1000} distance="30px" cascade>

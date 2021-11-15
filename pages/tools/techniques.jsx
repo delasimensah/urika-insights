@@ -12,10 +12,10 @@ import Layout from "../../components/Layout";
 const Techniques = () => {
   return (
     <Layout>
-      <div className="bg-right bg-research-bg md:bg-cover h-[150px] md:h-[350px]" />
+      <div className="mt-10 bg-research-bg bg-cover h-[150px] md:h-[350px]" />
 
       <Slide up distance="30px" duration={2000}>
-        <div className="relative md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-40 md:mx-auto bg-white space-y-10 z-50 md:border">
+        <div className="relative md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-40 md:mx-auto bg-white space-y-10 z-40 md:border">
           <Breadcrumbs>
             <Link href="/">
               <a>Home</a>
@@ -35,7 +35,7 @@ const Techniques = () => {
       </Slide>
 
       <Fade left duration={1500} distance="60px">
-        <div className="px-6 pb-20 -mt-10 space-y-4 md:px-16 lg:px-40">
+        <div className="px-6 pb-20 space-y-4 md:px-16 lg:px-40">
           <h1 className="heading ">In-Depth Interviews</h1>
 
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
@@ -139,14 +139,14 @@ const Techniques = () => {
               or organisations, and can provide dynamic information on:
             </p>
 
-            <ol className="pl-5 mt-3 space-y-2">
-              <li>1. Broad trends in a market.</li>
+            <ol className="pl-5 mt-3 space-y-2 list-decimal">
+              <li>Broad trends in a market.</li>
               <li>
-                2. Case history of specific respondents (e.g. level of repeat
+                Case history of specific respondents (e.g. level of repeat
                 purchases).
               </li>
               <li>
-                3. Attitudes and reactions over time to particular products or
+                Attitudes and reactions over time to particular products or
                 services.
               </li>
             </ol>

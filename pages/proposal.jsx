@@ -31,7 +31,7 @@ const Proposal = () => {
 
   return (
     <Layout>
-      <div className="h-full px-5 mx-auto space-y-10 py-14 md:px-0 md:w-4/5 lg:w-3/5">
+      <div className="h-full px-5 mx-auto mt-10 space-y-10 py-14 md:px-0 md:w-4/5 lg:w-3/5">
         <Breadcrumbs>
           <Link href="/">
             <a>Home</a>
@@ -40,7 +40,7 @@ const Proposal = () => {
           <p>Request Proposal</p>
         </Breadcrumbs>
 
-        <p className="text-lg text-center">
+        <p className="text-sm text-center md:text-lg">
           If you have a research need, we are happy to put together a proposal
           for you. Our research work is tailored to clients' specific needs.
           Please fill the form below and we will get back to you as soon as

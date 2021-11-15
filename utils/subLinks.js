@@ -11,7 +11,7 @@ export const aboutLinks = [
 
 export const servicesLinks = [
   {
-    link: "/services",
+    link: "/services/customer-experience",
     title: "360 customer experience optimizer",
   },
   {
@@ -19,40 +19,36 @@ export const servicesLinks = [
     title: "mystery shopping",
   },
   {
-    link: "/services",
+    link: "/services/customer-satisfaction",
     title: "customer satisfaction research",
   },
   {
-    link: "/services",
-    title: "emplayee satisfaction research",
+    link: "/services/employee-satisfaction",
+    title: "employee satisfaction research",
   },
   {
-    link: "/services",
+    link: "/services/brand",
     title: "brand research",
   },
   {
-    link: "/services",
+    link: "/services/segmentation",
     title: "segmentation Research",
   },
   {
-    link: "/services",
+    link: "/services/product-development",
     title: "product development research",
   },
   {
-    link: "/services",
+    link: "/services/social",
     title: "opinion and social research",
   },
   {
-    link: "/services",
+    link: "/services/data-collection",
     title: "field and data collection services",
   },
   {
-    link: "/services",
+    link: "/services/corporate-training",
     title: "corporate training programmes",
-  },
-  {
-    link: "/services",
-    title: "testing services",
   },
 ];
 

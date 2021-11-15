@@ -40,6 +40,20 @@ const NewsLetter = () => {
         >
           Sign Up
         </Button>
+
+        <div className="flex flex-col items-center pt-10">
+          <a
+            href="/brochure.pdf"
+            download
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-secondary"
+          >
+            Download our Brochure
+          </a>
+
+          <p className="text-primary">(PDF file - 2.06 Mb)</p>
+        </div>
       </div>
     </Fade>
   );

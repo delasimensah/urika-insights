@@ -22,7 +22,7 @@ const ContactUs = () => {
 
   return (
     <Layout>
-      <div className="h-full px-5 mx-auto space-y-10 py-14 md:px-0 md:w-4/5 lg:w-3/5">
+      <div className="h-full px-5 mx-auto mt-10 space-y-10 py-14 md:px-0 md:w-4/5 lg:w-3/5">
         <Breadcrumbs>
           <Link href="/">
             <a>Home</a>
@@ -33,7 +33,7 @@ const ContactUs = () => {
 
         <Fade distance="40px" duration={1500} left>
           <div className="mb-10 space-y-10">
-            <p className="text-lg text-center">
+            <p className="text-sm text-center md:text-lg">
               If you have a request, a question or any comment, we will be happy
               to hear from you. Please enter your submission in the form below
               and select the 'send message' button to send your email.
@@ -41,7 +41,9 @@ const ContactUs = () => {
 
             <ul className="grid gap-10 md:grid-cols-2">
               <li>
-                <h1 className="mb-5 text-lg font-medium">Telephone: </h1>
+                <h1 className="mb-5 text-base font-medium md:text-lg">
+                  Telephone:{" "}
+                </h1>
                 <p className="text-sm">+233 (0) 30 294 5998</p>
                 <p className="text-sm">+233 (0) 30 294 5998</p>
                 <p className="text-sm">+233 (0) 30 294 5998</p>
@@ -49,12 +51,16 @@ const ContactUs = () => {
               </li>
 
               <li>
-                <h1 className="mb-5 text-lg font-medium">Email: </h1>
+                <h1 className="mb-5 text-base font-medium md:text-lg">
+                  Email:{" "}
+                </h1>
                 <p className="text-sm">info@urikaresearch.com</p>
               </li>
 
               <li>
-                <h1 className="mb-5 text-lg font-medium">Postal: </h1>
+                <h1 className="mb-5 text-base font-medium md:text-lg">
+                  Postal:{" "}
+                </h1>
                 <p className="text-sm">URIKA Research</p>
                 <p className="text-sm">Private Mail Bag</p>
                 <p className="text-sm">Community 11</p>
@@ -62,7 +68,9 @@ const ContactUs = () => {
               </li>
 
               <li>
-                <h1 className="mb-5 text-lg font-medium">Location: </h1>
+                <h1 className="mb-5 text-base font-medium md:text-lg">
+                  Location:{" "}
+                </h1>
                 <p className="text-sm">Konadu Office Plaza,</p>
                 <p className="text-sm">1st Floor, Suite 2,</p>
                 <p className="text-sm">Community 4, Tema.</p>

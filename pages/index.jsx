@@ -11,7 +11,7 @@ const Home = () => {
       <Carousel />
 
       <Slide up distance="30px" duration={2000}>
-        <div className="relative md:border md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-20 md:mx-auto bg-white space-y-10 z-50">
+        <div className="relative mt-10 md:border md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-20 md:mx-auto bg-white space-y-10 z-40">
           <h1 className="heading">
             Welcome to <span className="text-secondary">URIKA</span>{" "}
             <span className="text-primary">Research</span>

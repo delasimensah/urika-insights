@@ -12,7 +12,7 @@ const Topbar = () => {
   const router = useRouter();
 
   return (
-    <nav className="top-0 z-50 flex items-center justify-between w-full px-5 py-2 shadow-sm md:px-10 md:py-4">
+    <nav className="fixed top-0 z-50 flex items-center justify-between w-full px-5 py-2 bg-white shadow-sm md:px-10 md:py-4">
       <Menu />
 
       <Logo />
