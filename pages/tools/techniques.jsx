@@ -12,7 +12,7 @@ import Layout from "../../components/Layout";
 const Techniques = () => {
   return (
     <Layout>
-      <div className="bg-right bg-home-bg md:bg-cover h-[150px] md:h-[350px]" />
+      <div className="bg-right bg-research-bg md:bg-cover h-[150px] md:h-[350px]" />
 
       <Slide up distance="30px" duration={2000}>
         <div className="relative md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-40 md:mx-auto bg-white space-y-10 z-50 md:border">
@@ -21,80 +21,152 @@ const Techniques = () => {
               <a>Home</a>
             </Link>
 
-            <p>About URIKA Research</p>
+            <p>Tools</p>
+
+            <p>Techniques</p>
           </Breadcrumbs>
 
           <h1 className="leading-normal heading">
-            We pursue every research work with passion, intellectual curiosity
-            and high degree of personal interest. We also have the flexibility
-            to adapt our methods to fit our clients' unique needs.
+            In order to gain quantifiable and non-quantifiable insights into the
+            behaviour, motivations and attitudes of sample populations, we use
+            qualitative and quantitative approaches that include:
           </h1>
-
-          <div className="space-y-5 text-sm text-gray-600 md:text-lg">
-            <p>
-              It is this personal touch that many clients find most exciting
-              about working with URIKA Research, For us it's the satisfaction
-              that comes from helping our clients shine.
-            </p>
-          </div>
         </div>
       </Slide>
 
       <Fade left duration={1500} distance="60px">
         <div className="px-6 pb-20 -mt-10 space-y-4 md:px-16 lg:px-40">
-          <h1 className="heading ">Our History</h1>
+          <h1 className="heading ">In-Depth Interviews</h1>
 
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
-              Established in 2009, URIKA Research is a young and dynamic
-              research firm defined by its commitment to employ innovative
-              research approaches that ensure clients get dependable insights
-              and the most perspective from their research.
+              In-depth interviews are interviews conducted face â€“to-face, in
+              which the subject matter of the interview is explored in detail
+              using unstructured and flexible approach. This method is applied
+              to develop deeper understanding of consumer attitudes and the
+              reasons behind specific behaviours.
             </p>
-            <p>
-              Integrating research and technology; we provide a unique ability
-              to combine primary research, secondary research, competitor
-              intelligence, and expert insight to address our clients' strategic
-              research needs. Our expertise is focused on areas of Brand
-              Research, Customer Experience Research and Management, Product and
-              Concept Research, Employee Satisfaction Research, Competitor
-              Intelligence, Social and Opinion Research,and Ad hoc Research for
-              organisations who want a one-time research designed for a
-              particular purpose. We also provide corporate training programmes
-              to organisations. In the near future, we plan to expand out
-              portfolio of services to include Advertising Research and Media
-              Research
-            </p>
-
-            <p>
-              URIKA Research works with clients from a broad range of industries
-              that include: Financial Services, Retail and FMCG, Hotel and
-              Restaurants, Call Centres, Telecommunications, and Automotive Car
-              Dealerships.
-            </p>
-
-            <h1 className="leading-normal heading">
-              <span className="text-white bg-primary">
-                What makes us stand out is that we care about how our clients
-                use their research results. We consult with our clients on how
-                to integrate the research findings into their operations and see
-                it work for them.
-              </span>
-            </h1>
           </div>
         </div>
       </Fade>
 
       <Fade left duration={1500} distance="60px">
-        <div className="px-6 pt-0 pb-20 space-y-4 md:px-16 lg:px-40">
-          <h1 className="heading ">Our Vision</h1>
+        <div className="px-6 pb-20 -mt-10 space-y-4 md:px-16 lg:px-40">
+          <h1 className="heading ">Focus Groups</h1>
 
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
-              Our Vision at URIKA Research to be become a Ghanaian grown premier
-              research company that delivers world class research knowledge to
-              businesses, government, and organisations in Africa so they can be
-              sustainable and compete intelligently on the global stage.
+              Focus groups are depth interviews undertaken with a group of
+              respondents. URIKA Research conducts focus groups to obtain
+              implicit, unstructured, visceral, and uncensored ideas and
+              reactions that typically cannot be obtained through surveys.
+              Unlike individual interviews, the effects arising from social
+              behaviour and the interpersonal dynamics of the group members are
+              critical to the success of this approach. The views or
+              contribution of one person may become the stimulus for another
+              personâ€™s contribution or may initiate discussion, debate and
+              even arguments.
+            </p>
+          </div>
+        </div>
+      </Fade>
+
+      <Fade left duration={1500} distance="60px">
+        <div className="px-6 pb-20 -mt-10 space-y-4 md:px-16 lg:px-40">
+          <h1 className="heading ">Executive Interviews</h1>
+
+          <div className="space-y-5 text-sm text-gray-600 md:text-lg">
+            <p>
+              This type of survey involves interviewing businesspeople at their
+              place of work about industrial or business products or services.
+            </p>
+          </div>
+        </div>
+      </Fade>
+
+      <Fade left duration={1500} distance="60px">
+        <div className="px-6 pb-20 -mt-10 space-y-4 md:px-16 lg:px-40">
+          <h1 className="heading ">Self-Administered Paper surveys</h1>
+
+          <div className="space-y-5 text-sm text-gray-600 md:text-lg">
+            <p>
+              This type of survey involves respondents personally fill out paper
+              questionnaires.
+            </p>
+          </div>
+        </div>
+      </Fade>
+
+      <Fade left duration={1500} distance="60px">
+        <div className="px-6 pb-20 -mt-10 space-y-4 md:px-16 lg:px-40">
+          <h1 className="heading ">Telephone Surveys</h1>
+
+          <div className="space-y-5 text-sm text-gray-600 md:text-lg">
+            <p>
+              This method is used to interview respondents over the telephone.
+              Unlike face-to-face interviews, the need for interviewer
+              travelling time and expenses is eliminated. Also this approach
+              allows to be undertaken nationally and internationally from one
+              central location.
+            </p>
+          </div>
+        </div>
+      </Fade>
+
+      <Fade left duration={1500} distance="60px">
+        <div className="px-6 pb-20 -mt-10 space-y-4 md:px-16 lg:px-40">
+          <h1 className="heading ">Online Surveys</h1>
+
+          <div className="space-y-5 text-sm text-gray-600 md:text-lg">
+            <p>
+              This method involves using either email surveys or web surveys.
+              Online surveys are increasingly becoming popular among clients
+              because it is cheaper and faster to administer.
+            </p>
+          </div>
+        </div>
+      </Fade>
+
+      <Fade left duration={1500} distance="60px">
+        <div className="px-6 pb-20 -mt-10 space-y-4 md:px-16 lg:px-40">
+          <h1 className="heading ">Panel Research</h1>
+
+          <div className="space-y-3 text-sm text-gray-600 md:text-lg">
+            <p>
+              Panels are established to facilitate ongoing consultation. Here
+              comparative data is collected from the sampled respondents on more
+              than one occasion. Panels can consist of individuals, households
+              or organisations, and can provide dynamic information on:
+            </p>
+
+            <ol className="pl-5 mt-3 space-y-2">
+              <li>1. Broad trends in a market.</li>
+              <li>
+                2. Case history of specific respondents (e.g. level of repeat
+                purchases).
+              </li>
+              <li>
+                3. Attitudes and reactions over time to particular products or
+                services.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </Fade>
+
+      <Fade left duration={1500} distance="60px">
+        <div className="px-6 pb-20 -mt-10 space-y-4 md:px-16 lg:px-40">
+          <h1 className="heading ">Mystery shopping </h1>
+
+          <div className="space-y-5 text-sm text-gray-600 md:text-lg">
+            <p>
+              Application of this method is useful for examining the operation
+              and characteristics of customer service offices or shops (speed of
+              service, competence, waiting time, quality, cleanliness, etc).
+              Mystery shopping is not only applicable for studying the actual
+              process of the serving, but also the quality of the information
+              service or the persuading abilities of those being in touch with
+              customers.
             </p>
           </div>
         </div>
