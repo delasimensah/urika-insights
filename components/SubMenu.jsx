@@ -10,8 +10,8 @@ const AboutSubMenu = ({ open, links }) => {
       <List component="ul" disablePadding className="pl-6">
         {links.map(({ link, title }, idx) => {
           return (
-            <li className="py-4 cursor-pointer group">
-              <Link href={link} key={idx}>
+            <li key={idx} className="py-4 cursor-pointer group">
+              <Link href={link}>
                 <a className="pl-2 text-sm uppercase group-hover:border-l">
                   {title}
                 </a>

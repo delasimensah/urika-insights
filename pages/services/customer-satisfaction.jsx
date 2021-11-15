@@ -15,7 +15,7 @@ const CustomerSatisfaction = () => {
       <div className="mt-10 bg-services-bg bg-cover h-[150px] md:h-[350px]" />
 
       <Slide up distance="30px" duration={2000}>
-        <div className="relative md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-40 md:mx-auto bg-white space-y-10 z-50 md:border">
+        <div className="relative md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-40 md:mx-auto bg-white space-y-10 z-40 md:border">
           <Breadcrumbs>
             <Link href="/">
               <a>Home</a>
