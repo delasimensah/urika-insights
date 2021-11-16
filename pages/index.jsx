@@ -14,12 +14,12 @@ const Home = () => {
         <div className="relative mt-10 md:border md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-20 md:mx-auto bg-white space-y-10 z-40">
           <h1 className="heading">
             Welcome to <span className="text-secondary">URIKA</span>{" "}
-            <span className="text-primary">Research</span>
+            <span className="text-primary">Insights</span>
           </h1>
 
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
-              URIKA Research delivers innovative and dependable research that
+              URIKA Insights delivers innovative and dependable research that
               gets to the heart of any business or social issue. Whether your
               goal is to improve customer satisfaction, bolster your brand,
               attract and retain high quality employees, or to develop better
@@ -37,7 +37,7 @@ const Home = () => {
             </p>
 
             <p>
-              URIKA Research understands the value of research and what it can
+              URIKA Insights understands the value of research and what it can
               do for your organisation. Our focus is not only on delivering
               quality research to our clients; it goes beyond that. We care
               about our clients achieving maximum returns on their investments

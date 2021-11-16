@@ -29,7 +29,7 @@ const CoporateTraining = () => {
           </Breadcrumbs>
 
           <h1 className="leading-normal heading">
-            Many organisations trust and rely on URIKA Research to help them
+            Many organisations trust and rely on URIKA Insights to help them
             meet their training and employee development needs.
           </h1>
         </div>

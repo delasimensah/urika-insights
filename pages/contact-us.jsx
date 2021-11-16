@@ -54,14 +54,14 @@ const ContactUs = () => {
                 <h1 className="mb-5 text-base font-medium md:text-lg">
                   Email:{" "}
                 </h1>
-                <p className="text-sm">info@urikaresearch.com</p>
+                <p className="text-sm">info@urikainsights.com</p>
               </li>
 
               <li>
                 <h1 className="mb-5 text-base font-medium md:text-lg">
                   Postal:{" "}
                 </h1>
-                <p className="text-sm">URIKA Research</p>
+                <p className="text-sm">URIKA Insights</p>
                 <p className="text-sm">Private Mail Bag</p>
                 <p className="text-sm">Community 11</p>
                 <p className="text-sm">Tema, Ghana</p>

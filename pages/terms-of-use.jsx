@@ -33,7 +33,7 @@ const TermsOfUse = () => {
             <p>
               Unless otherwise stated, the contents of this website including,
               but not limited to, the text and images contained herein and their
-              arrangement are the property of URIKA Research. All trademarks
+              arrangement are the property of URIKA Insights. All trademarks
               used or referred to in this website are the property of their
               respective owners.
             </p>
@@ -44,12 +44,12 @@ const TermsOfUse = () => {
               Nothing contained in this website shall be construed as conferring
               by implication, estoppels, or otherwise, any license or right to
               any copyright, patent, trademark or other proprietary interest of
-              URIKA Research or any third party. This website and the content
+              URIKA Insights or any third party. This website and the content
               provided in this website, including, but not limited to, graphic
               images, audio, video, html code, buttons, and text, may not be
               copied, reproduced, republished, uploaded, posted, transmitted, or
               distributed in any way, without the prior written consent of URIKA
-              Research, except that you may download, display, and print one
+              Insights, except that you may download, display, and print one
               copy of the materials on any single computer solely for your
               personal, non-commercial use, provided that you do not modify the
               material in any way and you keep intact all copyright, trademark,
@@ -61,10 +61,10 @@ const TermsOfUse = () => {
             <p>
               The information provided on this website is free of charge and for
               informational purposes only and does not create a business or
-              professional services relationship between you and URIKA Research.
+              professional services relationship between you and URIKA Insights.
               Links on this website may lead to services or websites not
-              operated by URIKA Research. No judgment or warranty is made with
-              respect to such other services or websites and URIKA Research
+              operated by URIKA Insights. No judgment or warranty is made with
+              respect to such other services or websites and URIKA Insights
               takes no responsibility for such other websites or services. A
               link to another website or service is not an endorsement of that
               website or service. Any use you make of the information provided
@@ -76,13 +76,13 @@ const TermsOfUse = () => {
           <Fade distance="40px" duration={1500} left>
             <p>
               This website and its contents are provided "as is" and URIKA
-              Research makes no representation or warranty of any kind with
+              Insights makes no representation or warranty of any kind with
               respect to this website or any website or service accessible
-              through this website. URIKA Research expressly disclaims all
+              through this website. URIKA Insights expressly disclaims all
               express and implied warranties including, but not limited to, the
               implied warranties of merchantability, fitness for a particular
               purpose, title, and non-infringement. In no event will URIKA
-              Research be liable to any party for any direct, indirect,
+              Insights be liable to any party for any direct, indirect,
               incidental, special, exemplary, consequential, or other damages
               (including, but not limited to, lost profits, business
               interruption, loss of programs or data) without regard to the form
@@ -96,12 +96,12 @@ const TermsOfUse = () => {
 
           <Fade distance="40px" duration={1500} left>
             <p>
-              URIKA Research operates in Ghana and you agree that these terms of
+              URIKA Insights operates in Ghana and you agree that these terms of
               use and any legal action or proceeding relating to this website
               shall be governed by the laws of Ghana without reference to its
               choice of law rules. If you attempt to bring any legal proceedings
-              against URIKA Research you specifically acknowledge that URIKA
-              Research is free to choose the jurisdiction of our preference as
+              against URIKA Insights you specifically acknowledge that URIKA
+              Insights is free to choose the jurisdiction of our preference as
               to where such action against us may be held. As you have agreed by
               using this website to choose the laws of Ghana to govern any such
               proceedings, we will probably choose to defend any such action in
@@ -129,14 +129,14 @@ const TermsOfUse = () => {
 
           <Fade distance="40px" duration={1500} left>
             <p>
-              URIKA Research does not accept unauthorized idea submissions
+              URIKA Insights does not accept unauthorized idea submissions
               outside of established business relationships. To protect the
               interests of our current clients and ourselves, we must treat the
               issue of such submissions with great care. Importantly, without a
-              clear business relationship, URIKA Research cannot and does not
+              clear business relationship, URIKA Insights cannot and does not
               treat any such submissions in confidence. Any ideas disclosed to
-              URIKA Research outside a pre-existing and documented confidential
-              business relationship are not confidential and URIKA Research may
+              URIKA Insights outside a pre-existing and documented confidential
+              business relationship are not confidential and URIKA Insights may
               therefore develop, use and freely disclose or publish similar
               ideas without compensating you or accounting to you.
             </p>

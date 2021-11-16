@@ -75,7 +75,7 @@ const EmployeeSatisfaction = () => {
             </p>
 
             <p>
-              URIKA Research is committed to helping our clients foster a
+              URIKA Insights is committed to helping our clients foster a
               culture of service excellence, and employees play a pivotal role
               in creating this culture. Our Employee Satisfaction Research can
               assist you to better understand, motivate and thereby optimize

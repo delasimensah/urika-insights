@@ -29,7 +29,7 @@ const DataCollection = () => {
           </Breadcrumbs>
 
           <h1 className="leading-normal heading">
-            URIKA Research provides data collection and field services for
+            URIKA Insights provides data collection and field services for
             clients who may require only information collection from their
             respondents on the field. Here, clients will usually supply us with
             a questionnaire and sample frame and we deliver the completed
@@ -48,9 +48,9 @@ const DataCollection = () => {
 
             <p>
               We know that the proper execution of fieldwork is crucial to the
-              end quality of any research project. With our experience and
-              well-trained interviewers, you can trust us to deliver quality
-              interviews on time, every time.
+              end quality Insights project. With our experience and well-trained
+              interviewers, you can trust us to deliver quality interviews on
+              time, every time.
             </p>
 
             <p>We have:</p>

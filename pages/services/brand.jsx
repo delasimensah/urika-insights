@@ -30,7 +30,7 @@ const Brand = () => {
 
           <h1 className="leading-normal heading">
             You know how hard it is to build a competitive brand. So do we. At
-            URIKA Research, we have developed a smart and robust proprietary
+            URIKA Insights, we have developed a smart and robust proprietary
             tool called the 360 Brand Audit Model. With this tool we are able to
             conduct research into the brand health or customer-based brand
             equity of organisations
@@ -92,7 +92,7 @@ const Brand = () => {
             </ol>
 
             <p>
-              At URIKA Research, we are committed to helping our clients build
+              At URIKA Insights, we are committed to helping our clients build
               enduring brands that provide sustainable competitive advantage.
             </p>
           </div>
@@ -106,7 +106,7 @@ const Brand = () => {
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
               To comprehensively understand Brand Equity and Brand Health on the
-              marketplace, URIKA Research has developed a proprietary tool
+              marketplace, URIKA Insights has developed a proprietary tool
               called the 360 Brand Audit Model. Our model uses a unique
               qualitative and quantitative methodology that takes an all-around
               view of Brand Health and audits all dimensions that may add value

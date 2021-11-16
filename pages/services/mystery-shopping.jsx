@@ -120,7 +120,7 @@ const MysteryShopping = () => {
             </p>
 
             <p>
-              URIKA Research uses the latest digital recording systems to ensure
+              URIKA Insights uses the latest digital recording systems to ensure
               the highest quality of output, including call editing to remove
               audio interference and maximize call clarity.
             </p>

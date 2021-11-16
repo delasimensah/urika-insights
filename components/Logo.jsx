@@ -6,7 +6,7 @@ const Logo = () => {
     <Link href="/">
       <h1 className="text-lg cursor-pointer md:text-xl">
         <span className="text-secondary">URIKA</span>{" "}
-        <span className="text-primary">Research</span>
+        <span className="text-primary">Insights</span>
       </h1>
     </Link>
   );

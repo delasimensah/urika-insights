@@ -22,9 +22,9 @@ const PrivacyPolicy = () => {
         <div className="space-y-10 text-gray-600">
           <Fade distance="40px" duration={1500} left>
             <p>
-              This website is administered by URIKA Research. The primary
+              This website is administered by URIKA Insights. The primary
               purpose of this website is to disseminate information about URIKA
-              Research and its services to the public. URIKA Research regards
+              Insights and its services to the public. URIKA Insights regards
               your privacy as very important and we want you to feel secure when
               visiting our website. Any personal information you give us is only
               used for the purposes for which you provide it; e.g. your email
@@ -108,13 +108,13 @@ const PrivacyPolicy = () => {
                 </p>
 
                 <p>
-                  URIKA Research may disclose personally identifying information
+                  URIKA Insights may disclose personally identifying information
                   collected on this website if we believe such action is
                   required by law or desirable to permit us to exercise our
                   legal rights or take action regarding illegal activities, or
                   if we have a good faith belief that you are in violation of
                   the terms of service. Should there be a change in control of
-                  URIKA Research or all or part of the company is sold, merged,
+                  URIKA Insights or all or part of the company is sold, merged,
                   or otherwise transferred to another entity, we may transfer
                   personally identifying information as part of that
                   transaction.
@@ -146,8 +146,8 @@ const PrivacyPolicy = () => {
               <div className="space-y-3">
                 <p>
                   Questions regarding this Policy and related privacy issues
-                  should be directed to URIKA Research by sending an e-mail to
-                  info@urikaresearch.com with the subject line "privacy," along
+                  should be directed to URIKA Insights by sending an e-mail to
+                  info@urikainsights.com with the subject line "privacy," along
                   with a thorough description of your concern.
                 </p>
               </div>

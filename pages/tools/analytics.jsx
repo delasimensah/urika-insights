@@ -27,7 +27,7 @@ const Analytics = () => {
           </Breadcrumbs>
 
           <h1 className="leading-normal heading">
-            At URIKA Research, we understand that the quality of analysis
+            At URIKA Insights, we understand that the quality of analysis
             determines the value of information. We employ a refined suite of
             statistical tools that draw out accurate, insightful and actionable
             findings from the research data.
@@ -116,7 +116,7 @@ const Analytics = () => {
               </ol>
             </p>
             <p>
-              URIKA Research applies conjoint techniques to evaluate the
+              URIKA Insights applies conjoint techniques to evaluate the
               viability of new products or services, and to determine the
               optimal mix, or bundle, of features that will motivate customer
               purchase.
@@ -176,7 +176,7 @@ const Analytics = () => {
               </ol>
             </p>
             <p>
-              URIKA Research uses these techniques to understand how consumers
+              URIKA Insights uses these techniques to understand how consumers
               perceive companies, and products and services, in the marketplace.
               For example, by having individuals evaluate a set of competitor
               companies on key image dimensions, we create visual maps
@@ -222,7 +222,7 @@ const Analytics = () => {
               </ol>
             </p>
             <p>
-              URIKA Research employs these predictive techniques in cases where
+              URIKA Insights employs these predictive techniques in cases where
               the goal is to predict group membership from a set of
               characteristics or variables. For example, we may want to learn
               which variables predict preferences between two competing brands.
@@ -292,7 +292,7 @@ const Analytics = () => {
               preferences.
             </p>
             <p>
-              URIKA Research's team routinely uses factor analysis to analyze
+              URIKA Insights's team routinely uses factor analysis to analyze
               customer survey data. We identify the core components of customer
               service in the minds of customers (e.g. knowledge, efficiency,
               concern, respect) and use these components to develop highly
@@ -355,7 +355,7 @@ const Analytics = () => {
 
             <h1 className="leading-normal heading">
               <span className="text-white bg-primary">
-                In addition, URIKA Research can evaluate the combined strength
+                In addition, URIKA Insights can evaluate the combined strength
                 of a set of product or service features in predicting key
                 indicators, to evaluate if there are important features missing
                 from current product or service offerings.
@@ -397,7 +397,7 @@ const Analytics = () => {
               variables.
             </p>
             <p>
-              At URIKA Research, we use SEM to test models of the relationships
+              At URIKA Insights, we use SEM to test models of the relationships
               among variables and how these variables influence behaviors and
               outcomes. For example, we evaluate models of how advertising
               influences brand perceptions and sales; models of how

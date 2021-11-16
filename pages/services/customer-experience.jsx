@@ -32,7 +32,7 @@ const CustomerExperience = () => {
             Customer experiences play a critical role in keeping organisations
             profitable and competitive. To help our clients strategically
             deliver superior service experiences to their customers, URIKA
-            Research has put together an integrated suite of tools called the
+            Insights has put together an integrated suite of tools called the
             360 Customer Experience Optimizer (360 CEO).
           </h1>
         </div>

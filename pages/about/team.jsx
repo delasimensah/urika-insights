@@ -23,13 +23,14 @@ const Team = () => {
             </Link>
 
             <Link href="/about">
-              <a>About URIKA Research</a>
+              <a>About URIKA Insights</a>
             </Link>
+
             <p>Team</p>
           </Breadcrumbs>
 
           <h1 className="leading-normal heading">
-            URIKA Research is led by a team of young professionals with
+            URIKA Insights is led by a team of young professionals with
             inquiring minds and a passion to provide clients with insightful
             research rooted in reality. To every research project we bring our
             extensive experience, global perspective, local knowledge and
@@ -83,7 +84,7 @@ const Team = () => {
                 <p>
                   Joojo has 8 years experience in handling qualitative research
                   projects as well as coordinating data collection process on
-                  the field. Prior to joining URIKA Research, Joojo worked with
+                  the field. Prior to joining URIKA Insights, Joojo worked with
                   the Ghana Health Services and Virtual Access. He has vast
                   experience in research design and implementation, as well as a
                   strong experience in research management of projects.
@@ -132,7 +133,7 @@ const Team = () => {
                   research industry. Kwabena is an expert at managing software
                   applications and network systems. He is a Microsoft Certified
                   IT Professional, and a Cisco Certified Network Associate.
-                  Prior to joining URIKA Research, Kwabena worked with Barclays
+                  Prior to joining URIKA Insights, Kwabena worked with Barclays
                   Bank.
                 </p>
               </TeamCard>

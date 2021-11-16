@@ -57,7 +57,7 @@ const Techniques = () => {
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
               Focus groups are depth interviews undertaken with a group of
-              respondents. URIKA Research conducts focus groups to obtain
+              respondents. URIKA Insights conducts focus groups to obtain
               implicit, unstructured, visceral, and uncensored ideas and
               reactions that typically cannot be obtained through surveys.
               Unlike individual interviews, the effects arising from social

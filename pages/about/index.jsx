@@ -21,7 +21,7 @@ const CompanyOverview = () => {
               <a>Home</a>
             </Link>
 
-            <p>About URIKA Research</p>
+            <p>About URIKA Insights</p>
           </Breadcrumbs>
 
           <h1 className="leading-normal heading">
@@ -33,7 +33,7 @@ const CompanyOverview = () => {
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
               It is this personal touch that many clients find most exciting
-              about working with URIKA Research, For us it's the satisfaction
+              about working with URIKA Insights, For us it's the satisfaction
               that comes from helping our clients shine.
             </p>
           </div>
@@ -46,7 +46,7 @@ const CompanyOverview = () => {
 
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
-              Established in 2009, URIKA Research is a young and dynamic
+              Established in 2009, URIKA Insights is a young and dynamic
               research firm defined by its commitment to employ innovative
               research approaches that ensure clients get dependable insights
               and the most perspective from their research.
@@ -67,7 +67,7 @@ const CompanyOverview = () => {
             </p>
 
             <p>
-              URIKA Research works with clients from a broad range of industries
+              URIKA Insights works with clients from a broad range of industries
               that include: Financial Services, Retail and FMCG, Hotel and
               Restaurants, Call Centres, Telecommunications, and Automotive Car
               Dealerships.
@@ -91,7 +91,7 @@ const CompanyOverview = () => {
 
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
-              Our Vision at URIKA Research to be become a Ghanaian grown premier
+              Our Vision at URIKA Insights to be become a Ghanaian grown premier
               research company that delivers world class research knowledge to
               businesses, government, and organisations in Africa so they can be
               sustainable and compete intelligently on the global stage.
@@ -120,7 +120,7 @@ const CompanyOverview = () => {
 
           <p className="text-sm text-gray-600 md:text-lg">
             Three core values shape our culture and define the character of
-            URIKA Research. These values guide how we conduct our research and
+            URIKA Insights. These values guide how we conduct our research and
             interact with our clients.
           </p>
 
@@ -128,9 +128,9 @@ const CompanyOverview = () => {
             <li className="space-y-3">
               <h5 className="text-xl font-medium">1. Honesty</h5>
               <p className="text-sm text-gray-600 md:text-base">
-                Honesty is an essential part of life at URIKA Research. It is
+                Honesty is an essential part of life at URIKA Insights. It is
                 how we conduct ourselves and how we do business. At URIKA
-                Research we believe that how you do something is as important as
+                Insights we believe that how you do something is as important as
                 what you do. For us our commitment to fostering great
                 relationships with all our stakeholders begins with inspiring in
                 our people the value of honesty and the need to be ethical in
@@ -143,7 +143,7 @@ const CompanyOverview = () => {
               <p className="text-sm text-gray-600 md:text-base">
                 Creativity is at the heart of our operating principles. We
                 believe that there should always be new and better ways of doing
-                things to yield outstanding results. At URIKA Research, we
+                things to yield outstanding results. At URIKA Insights, we
                 strive to create an environment where our people can challenge
                 themselves and bring out creative solutions to resolve our
                 clients' challenges.

@@ -24,7 +24,7 @@ const Footer = () => {
         })}
       </ul>
 
-      <p className="text-sm">URIKA Research © {new Date().getFullYear()}</p>
+      <p className="text-sm">URIKA Insights © {new Date().getFullYear()}</p>
     </footer>
   );
 };
