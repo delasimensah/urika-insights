@@ -43,7 +43,7 @@ const NewsLetter = () => {
 
         <div className="flex flex-col items-center pt-10">
           <a
-            href="/brochure.pdf"
+            href="/brochure-2021.pdf"
             download
             rel="noopener noreferrer"
             target="_blank"
@@ -52,7 +52,7 @@ const NewsLetter = () => {
             Download our Brochure
           </a>
 
-          <p className="text-primary">(PDF file - 2.06 Mb)</p>
+          <p className="text-primary">(PDF file - 1.50 Mb)</p>
         </div>
       </div>
     </Fade>

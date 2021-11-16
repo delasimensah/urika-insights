@@ -42,7 +42,7 @@ const Menu = () => {
         className="p-0 hover:bg-transparent"
         disableRipple
       >
-        <GrMenu className="text-black w-7 h-7" />
+        <GrMenu className="w-5 h-5 text-black md:w-7 md:h-7" />
       </IconButton>
 
       <Drawer anchor="left" open={menuOpen} onClose={toggleMenu}>
@@ -55,7 +55,7 @@ const Menu = () => {
               onClick={toggleMenu}
               className="p-0 hover:bg-transparent"
             >
-              <IoClose className="w-8 h-8 text-white" />
+              <IoClose className="w-8 h-8 text-white " />
             </IconButton>
           </div>
 

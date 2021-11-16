@@ -11,7 +11,7 @@ const MyApp = ({ Component, pageProps }) => {
           URIKA Insights: Leading Market And Social Research Company In Ghana
         </title>
         <meta name="description" content="Website for Urika Insights" />
-        <link rel="icon" href="/icon.ico" />
+        <link rel="icon" href="/icon.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

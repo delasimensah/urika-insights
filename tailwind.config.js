@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#DC2626",
-        secondary: "#1D4ED8",
+        primary: "#f60001",
+        secondary: "#1e3c8c",
       },
       backgroundImage: {
         "home-bg": "url('/images/home.jpg')",
