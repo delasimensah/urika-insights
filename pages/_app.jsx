@@ -24,8 +24,8 @@ const MyApp = ({ Component, pageProps }) => {
 
       <ModalVideo
         channel="youtube"
-        autoplay={false}
-        modestbranding
+        autoplay
+        showinfo={false}
         isOpen={isOpen}
         videoId="pqb6IEOmdyk"
         onClose={() => setOpen(false)}
