@@ -10,7 +10,7 @@ import "react-modal-video/css/modal-video.min.css";
 import "../styles/globals.css";
 
 const MyApp = ({ Component, pageProps }) => {
-  const [isOpen, setOpen] = useState(true);
+  const [isOpen, setOpen] = useState(false);
 
   return (
     <>
