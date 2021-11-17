@@ -5,7 +5,7 @@ import makeCarousel from "react-reveal/makeCarousel";
 
 const Container = ({ children }) => {
   return (
-    <div className="relative h-[300px] md:h-[400px] overflow-hidden">
+    <div className="relative h-[350px] md:h-[450px] overflow-hidden">
       {children}
     </div>
   );
