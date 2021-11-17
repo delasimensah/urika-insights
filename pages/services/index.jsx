@@ -7,11 +7,12 @@ import { Breadcrumbs } from "@mui/material";
 
 //components
 import Layout from "../../components/Layout";
+import ServicesHero from "../../components/ServicesHero";
 
 const Index = () => {
   return (
     <Layout>
-      <div className="mt-10 bg-services-bg bg-cover h-[150px] md:h-[350px]" />
+      <ServicesHero />
 
       <Breadcrumbs className="px-5 mt-10 md:px-20">
         <Link href="/">

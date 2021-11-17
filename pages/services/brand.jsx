@@ -8,11 +8,12 @@ import { Breadcrumbs } from "@mui/material";
 
 //components
 import Layout from "../../components/Layout";
+import ServicesHero from "../../components/ServicesHero";
 
 const Brand = () => {
   return (
     <Layout>
-      <div className="mt-10 bg-services-bg bg-cover h-[150px] md:h-[350px]" />
+      <ServicesHero />
 
       <Slide up distance="30px" duration={2000}>
         <div className="relative md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-40 md:mx-auto bg-white space-y-10 z-40 md:border">

@@ -12,10 +12,10 @@ const Home = () => {
 
       <Slide up distance="30px" duration={2000}>
         <div className="relative mt-10 md:border md:rounded-md md:shadow-md p-6 md:px-10 md:py-16 md:w-[90vw] lg:w-[85vw] md:-top-20 md:mx-auto bg-white space-y-10 z-40">
-          <h1 className="heading">
+          {/* <h1 className="heading">
             Welcome to <span className="text-secondary">URIKA</span>{" "}
             <span className="text-primary">Insights</span>
-          </h1>
+          </h1> */}
 
           <div className="space-y-5 text-sm text-gray-600 md:text-lg">
             <p>
@@ -50,7 +50,10 @@ const Home = () => {
       </Slide>
 
       <div className="px-6 pt-10 pb-20 space-y-10 md:px-16 lg:px-40">
-        <h1 className="heading ">Who we work with</h1>
+        <h1 className="heading ">
+          We help leading companies like yours to have a better and nuanced
+          understanding of consumers, markets and societies in Africa:{" "}
+        </h1>
 
         <Clients />
       </div>

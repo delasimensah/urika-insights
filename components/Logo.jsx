@@ -5,13 +5,7 @@ import Image from "next/image";
 const Logo = () => {
   return (
     <Link href="/">
-      <Image
-        src="/logo.jpg"
-        alt=""
-        width={100}
-        height={50}
-        className="cursor-pointer"
-      />
+      <img src="/logo.jpg" alt="" className="cursor-pointer w-[120px]" />
     </Link>
   );
 };
