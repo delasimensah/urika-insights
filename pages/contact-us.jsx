@@ -32,22 +32,23 @@ const ContactUs = () => {
   const handleMessage = async (e) => {
     e.preventDefault();
 
-    // setLoading(true);
-    // const response = await fetch("https://formspree.io/f/myyoonvd", {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify({ name, email, phone, subject, message }),
-    // });
+    setLoading(true);
 
-    // if (response.status === 200) {
-    //   reset();
-    //   handleOpen();
-    // } else {
-    //   reset();
-    //   handleOpenError();
-    // }
+    const response = await fetch("https://formspree.io/f/mzbowgoo", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ name, email, phone, subject, message }),
+    });
+
+    if (response.status === 200) {
+      reset();
+      handleOpen();
+    } else {
+      reset();
+      handleOpenError();
+    }
   };
 
   const handleOpen = () => {
