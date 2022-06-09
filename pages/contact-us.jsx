@@ -44,6 +44,7 @@ const ContactUs = () => {
                 <h1 className="mb-5 text-base font-medium md:text-lg">
                   Telephone:{" "}
                 </h1>
+                <p className="text-sm">(+233) 20 644 3192</p>
                 <p className="text-sm">(+233) 30 294 5998</p>
                 <p className="text-sm">(+233) 55 666 6134</p>
               </li>
@@ -60,9 +61,6 @@ const ContactUs = () => {
                   Postal:{" "}
                 </h1>
                 <p className="text-sm">PMB Community 11, Tema</p>
-                {/* <p className="text-sm">Private Mail Bag</p>
-                <p className="text-sm">Community 11</p>
-                <p className="text-sm">Tema, Ghana</p> */}
               </li>
 
               <li>
@@ -73,8 +71,6 @@ const ContactUs = () => {
                   3rd Floor A&C Mall Offices, Jungle Street
                 </p>
                 <p className="text-sm">East Legon, Accra, Ghana</p>
-                {/* <p className="text-sm">Community 4, Tema.</p>
-                <p className="text-sm">Ghana.</p> */}
               </li>
             </ul>
           </div>
