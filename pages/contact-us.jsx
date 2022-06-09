@@ -3,7 +3,7 @@ import Link from "next/link";
 import Fade from "react-reveal/Fade";
 
 //mui
-import { Breadcrumbs, Button } from "@mui/material";
+import { Breadcrumbs, Button, Snackbar, Alert } from "@mui/material";
 
 //components
 import Layout from "../components/Layout";
@@ -16,8 +16,62 @@ const ContactUs = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
+  const [loading, setLoading] = useState(false);
+  const [open, setOpen] = useState(false);
+  const [openError, setOpenError] = useState(false);
+
+  const reset = () => {
+    setName("");
+    setEmail("");
+    setPhone("");
+    setSubject("");
+    setMessage("");
+    setLoading(false);
+  };
+
   const handleMessage = async (e) => {
     e.preventDefault();
+
+    // setLoading(true);
+    // const response = await fetch("https://formspree.io/f/myyoonvd", {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    //   body: JSON.stringify({ name, email, phone, subject, message }),
+    // });
+
+    // if (response.status === 200) {
+    //   reset();
+    //   handleOpen();
+    // } else {
+    //   reset();
+    //   handleOpenError();
+    // }
+  };
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = (_, reason) => {
+    if (reason === "clickaway") {
+      return;
+    }
+
+    setOpen(false);
+  };
+
+  const handleOpenError = () => {
+    setOpenError(true);
+  };
+
+  const handleCloseError = (_, reason) => {
+    if (reason === "clickaway") {
+      return;
+    }
+
+    setOpenError(false);
   };
 
   return (
@@ -97,7 +151,7 @@ const ContactUs = () => {
             <TextInput
               required
               label="Phone"
-              type="text"
+              type="number"
               value={phone}
               handleChange={(e) => setPhone(e.target.value)}
             />
@@ -116,6 +170,7 @@ const ContactUs = () => {
               value={message}
               handleChange={(e) => setMessage(e.target.value)}
               multiline={true}
+              minRows={6}
               maxRows={6}
             />
           </form>
@@ -133,10 +188,30 @@ const ContactUs = () => {
               message === ""
             }
           >
-            Send Message
+            {loading ? "Sending..." : "Send Message"}
           </Button>
         </Fade>
       </div>
+
+      <Snackbar open={open} autoHideDuration={4000} onClose={handleClose}>
+        <Alert onClose={handleClose} severity="success" sx={{ width: "100%" }}>
+          Your message was sent successfully
+        </Alert>
+      </Snackbar>
+
+      <Snackbar
+        open={openError}
+        autoHideDuration={4000}
+        onClose={handleCloseError}
+      >
+        <Alert
+          onClose={handleCloseError}
+          severity="error"
+          sx={{ width: "100%" }}
+        >
+          Your message was not sent successfully
+        </Alert>
+      </Snackbar>
     </Layout>
   );
 };

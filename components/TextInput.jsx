@@ -10,6 +10,7 @@ const TextInput = ({
   handleChange,
   multiline,
   maxRows,
+  minRows,
   required,
 }) => {
   return (
@@ -21,6 +22,7 @@ const TextInput = ({
       onChange={handleChange}
       fullWidth
       color="secondary"
+      minRows={minRows}
       multiline={multiline}
       maxRows={maxRows}
       required={required}
